@@ -1,0 +1,14 @@
+interval: 5
+max_workers: 20
+igu_file_path: /tmp/igu
+services:
+  apple:
+    mode: local
+    location: /tmp/log/apple.log
+    repo_owner: apple_owner
+    repo_name: apple
+  orange:
+    mode: local
+    location: /tmp/log/orange.log
+    repo_owner: orange_owner
+    repo_name: orange
